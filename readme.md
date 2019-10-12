@@ -21,20 +21,25 @@ After installtion, setting up and running, you will find the ssh address to that
 
 ## Installation
 ~~~bash
-git clone https://github.com/mlibre/ssh_remote_to_local.git
-cd ssh_remote_to_local
+# Create a Private Telegram group
+# Create a Telegram Bot
+# Add the bot to the group
+# In local PC ( the pc you want to ssh to it):
+git clone https://github.com/mlibre/SSH_To_Any.git
+cd SSH_To_Any/
 npm install
+mv sec.json.bak sec.json
+# Find and Put group-id and bot-token in sec.json
 ssh-keygen # In Terminal
 cp tmux.conf ~/.tmux.conf
 sudo nano /etc/sudoers # Add yourself to sudoers
 mlibre ALL = NOPASSWD: /usr/bin/killall, /usr/bin/kill, /bin/kill # Change mlibre to your username
 ~~~
-* Set your Telegram Token and Chat_id and other stuff in index.js
-
 * Putting program in startup Via pm2
 	~~~bash
 	# If you know pm2 startup. better use it. so good
-	pm2 start ssh.js
+	pm2 startup
+	pm2 start ssh.js --name ssh_anywhere
 	pm2 save
 	~~~
 
