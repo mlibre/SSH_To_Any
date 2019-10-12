@@ -30,6 +30,7 @@ cd SSH_To_Any/
 npm install
 mv sec.json.bak sec.json
 # Find and Put group-id and bot-token in sec.json
+# Set "every" variable in ssh.js. 1 is every one minutes.
 ssh-keygen # In Terminal
 cp tmux.conf ~/.tmux.conf
 sudo nano /etc/sudoers # Add yourself to sudoers
@@ -50,6 +51,8 @@ mlibre ALL = NOPASSWD: /usr/bin/killall, /usr/bin/kill, /bin/kill # Change mlibr
 	nano ssh_remote_to_local.desktop # Set the path
 	cp ssh_remote_to_local.desktop ~/.config/autostart/
 	~~~
+
+The ssh address will come to the channel you created :)
 ## License
 Free!
 
