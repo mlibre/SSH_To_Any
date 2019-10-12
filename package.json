@@ -1,0 +1,27 @@
+{
+  "name": "ssh_remote_to_local",
+  "version": "1.0.0",
+  "description": "Set Telegram Token and Chat_id and ... in index.js Install tmate, SSH, Nodejs clone the repo. npm install cp tmux.conf ~/.tmux.conf cp ssh_remote_to_local.desktop ~/.config/autostart/ cp tmate.desktop ~/.config/autostart/",
+  "main": "index.js",
+  "dependencies": {
+    "delay": "^4.3.0",
+    "find-process": "^1.4.2",
+    "node-cron": "^2.0.3",
+    "telegraf": "^3.32.0",
+    "username": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlibre/ssh_remote_to_local.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlibre/ssh_remote_to_local/issues"
+  },
+  "homepage": "https://github.com/mlibre/ssh_remote_to_local#readme"
+}

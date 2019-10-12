@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=node /media/mlibre/H/projects/ssh_remote_to_local/index.js
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=ssh_to_local_pc
+Comment[en_US]=No description
+X-GNOME-Autostart-Delay=90

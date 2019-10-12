@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=urxvt -e bash -c "tmate -L mlibre"
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=tmate
+Comment[en_US]=No description
+X-GNOME-Autostart-Delay=60
