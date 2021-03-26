@@ -10,7 +10,10 @@
     "telegraf": "^3.32.0",
     "username": "^5.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-plugin-node": "^11.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
